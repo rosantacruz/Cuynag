@@ -1,0 +1,27 @@
+.fontCard {
+    font-size: 15px;
+}
+
+.fontCard__titulo{
+    font-weight: bold;
+}
+
+.fontCard__nombre{
+    font-style: italic;
+}
+
+$colors: (
+ ceo: #f70776,
+ codirector:  #3a5795,
+ consultor: #b1b1f1f5,
+ rrhh: #b1b1f1f5,
+ jefediseño: #BDBDBD,
+ jefepersonal: #BDBDBD
+);
+
+@each $name-color, $bgcolor in $colors {
+    .card--#{$name-color} {
+        background-color: $bgcolor;
+    }
+ }
+ 

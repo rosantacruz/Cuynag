@@ -1,0 +1,30 @@
+/* Paleta de colores */
+
+$colorA: #f70776;
+$colorB: #680747;
+$colorC: #141010;
+$colorD: #BDBDBD;
+$colorE: white;
+$colorF: black;
+$colorG: #ebebeb;
+$colorH: #b1b1f1f5;
+
+/* Caract de Boostrap */
+
+$enable-gradients:true;
+$enable-transitions:true;
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Merriweather', serif;
+}
+
+/* Font Color */
+
+.fc-e {
+    color: $colorE;
+}
+
+
+

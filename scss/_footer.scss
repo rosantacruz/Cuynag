@@ -1,0 +1,37 @@
+/* Botton Redes */
+
+.btn-primary {
+    color: $colorE;
+    background-color: $colorB;
+    border-color: $colorB;
+
+    &:hover {
+        color: $colorE;
+        background-color: $colorB;
+        border-color: $colorB;
+    }
+
+    &:focus {
+        color: #fff;
+        background-color: $colorA;
+        border-color: $colorA;
+        box-shadow: 0 0 0 0.25rem rgba(118, 166, 238, 0.5);
+    }
+
+    &:disabled {
+        color: #fff;
+        background-color: $colorA;
+        border-color: $colorA;
+    }
+}
+
+/* Color */
+
+.bg-c {
+    background-color: $colorC;
+}
+
+/* Iconos */
+.icon {
+    font-size: 32px;
+}

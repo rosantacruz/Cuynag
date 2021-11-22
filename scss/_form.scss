@@ -1,0 +1,55 @@
+form {
+
+    padding: 16px;
+    border-radius: 10px;
+    margin: auto;
+    background-color: $colorD;
+    background-color: none;
+    background-image: none;
+
+    ul li {
+        list-style: none;
+    }
+
+    label {
+        width: 72px;
+        font-weight: bold;
+    }
+
+    input[type="text"],
+    input[type="tel"],
+    input[type="email"] {
+        width: 300px;
+        padding: 5px 15px;
+        border: 1px solid $colorE;
+        border-radius: 3px;
+        background-color: $colorE;
+        margin: 8px 0;
+    }
+
+    input[type="submit"],
+    input[type="reset"] {
+        width: 100%;
+        padding: 8px 16px;
+        margin-top: 32px;
+        border: 1px solid $colorB;
+        border-radius: 5px;
+        display: block;
+        color: $colorE;
+        background-color: $colorB;
+    }
+
+    textarea {
+        width: 90%;
+        height: 100px;
+        padding: 3px 10px;
+        border: 1px solid $colorE;
+        border-radius: 3px;
+        background-color: $colorE;
+        margin: 8px 0;
+        display: inline-block;
+
+
+    }
+
+}

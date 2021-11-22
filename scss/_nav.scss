@@ -1,0 +1,15 @@
+
+/* Background Color */
+
+.bg-e {
+    background-color: $colorD;
+}
+
+.fontNav {
+    font-size: 20px;
+}
+
+nav li a:hover {
+    background-color: $colorA;
+    transition: 0.5s;
+}
