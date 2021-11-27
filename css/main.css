@@ -48,6 +48,9 @@ nav li a:hover {
   background-color: #f70776;
   transition: 0.5s; }
 
+.disabledLi {
+  background-color: #f70776; }
+
 form {
   padding: 16px;
   border-radius: 10px;
