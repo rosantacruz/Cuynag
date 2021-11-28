@@ -10,33 +10,6 @@
 .fc-e {
   color: white; }
 
-/* Botton Redes */
-.btn-primary {
-  color: white;
-  background-color: #680747;
-  border-color: #680747; }
-  .btn-primary:hover {
-    color: white;
-    background-color: #680747;
-    border-color: #680747; }
-  .btn-primary:focus {
-    color: #fff;
-    background-color: #f70776;
-    border-color: #f70776;
-    box-shadow: 0 0 0 0.25rem rgba(118, 166, 238, 0.5); }
-  .btn-primary:disabled {
-    color: #fff;
-    background-color: #f70776;
-    border-color: #f70776; }
-
-/* Color */
-.bg-c {
-  background-color: #141010; }
-
-/* Iconos */
-.icon {
-  font-size: 32px; }
-
 /* Background Color */
 .bg-e {
   background-color: #BDBDBD; }
@@ -109,6 +82,33 @@ form {
 .clientes--background2 {
   background-color: #b1b1f1f5; }
 
+.fontCard {
+  font-size: 15px; }
+
+.fontCard__titulo {
+  font-weight: bold; }
+
+.fontCard__nombre {
+  font-style: italic; }
+
+.card--ceo {
+  background-color: #f70776; }
+
+.card--codirector {
+  background-color: #3a5795; }
+
+.card--consultor {
+  background-color: #b1b1f1f5; }
+
+.card--rrhh {
+  background-color: #b1b1f1f5; }
+
+.card--jefediseño {
+  background-color: #BDBDBD; }
+
+.card--jefepersonal {
+  background-color: #BDBDBD; }
+
 /*!
  * Bootstrap v5.1.3 (https://getbootstrap.com/)
  * Copyright 2011-2021 The Bootstrap Authors
@@ -116,19 +116,12 @@ form {
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
 :root {
-  --bs-blue: #0d6efd;
-  --bs-indigo: #6610f2;
-  --bs-purple: #6f42c1;
-  --bs-pink: #d63384;
-  --bs-red: #dc3545;
-  --bs-orange: #fd7e14;
-  --bs-yellow: #ffc107;
-  --bs-green: #198754;
-  --bs-teal: #20c997;
-  --bs-cyan: #0dcaf0;
-  --bs-white: #fff;
-  --bs-gray: #6c757d;
-  --bs-gray-dark: #343a40;
+  --bs-ceo: #f70776;
+  --bs-codirector: #3a5795;
+  --bs-consultor: #b1b1f1f5;
+  --bs-rrhh: #b1b1f1f5;
+  --bs-jefediseño: #BDBDBD;
+  --bs-jefepersonal: #BDBDBD;
   --bs-gray-100: #f8f9fa;
   --bs-gray-200: #e9ecef;
   --bs-gray-300: #dee2e6;
@@ -7985,29 +7978,29 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important; } }
 
-.fontCard {
-  font-size: 15px; }
+/* Botton Redes */
+.btn-primary {
+  color: white;
+  background-color: #680747;
+  border-color: #680747; }
+  .btn-primary:hover {
+    color: white;
+    background-color: #680747;
+    border-color: #680747; }
+  .btn-primary:focus {
+    color: #fff;
+    background-color: #f70776;
+    border-color: #f70776;
+    box-shadow: 0 0 0 0.25rem rgba(118, 166, 238, 0.5); }
+  .btn-primary:disabled {
+    color: #fff;
+    background-color: #f70776;
+    border-color: #f70776; }
 
-.fontCard__titulo {
-  font-weight: bold; }
+/* Color */
+.bg-c {
+  background-color: #141010; }
 
-.fontCard__nombre {
-  font-style: italic; }
-
-.card--ceo {
-  background-color: #f70776; }
-
-.card--codirector {
-  background-color: #3a5795; }
-
-.card--consultor {
-  background-color: #b1b1f1f5; }
-
-.card--rrhh {
-  background-color: #b1b1f1f5; }
-
-.card--jefediseño {
-  background-color: #BDBDBD; }
-
-.card--jefepersonal {
-  background-color: #BDBDBD; }
+/* Iconos */
+.icon {
+  font-size: 32px; }
