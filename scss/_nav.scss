@@ -9,6 +9,11 @@
     font-size: 20px;
 }
 
+nav li a{
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
 nav li a:hover {
     background-color: $colorA;
     transition: 0.5s;
@@ -16,4 +21,16 @@ nav li a:hover {
 
 .disabledLi {
     background-color: $colorA;
+}
+
+@media (max-width: 760px) {
+    nav li a {
+        max-width: 35%;
+    }
+}
+
+@media (min-width: 761px) and (max-width: 1024px) {
+    nav li a {
+        max-width: 40%;
+    }
 }
