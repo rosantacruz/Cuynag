@@ -2,13 +2,19 @@
 /* Boostrap acordeon */
 $accordion-color: $colorF;                  
 $body-color: $colorF;
-$accordion-bg: $colorD;                           
+$accordion-bg: $colorE;                           
 $body-bg: $colorE;
 $accordion-border-width: 1px;                  
 $border-width: 1px;
 $accordion-border-color: rgba($colorF, .125);
 $accordion-border-radius: 1.5px;                 
 $border-radius: 1.5px;
+$accordion-button-active-bg: $colorD;
+$accordion-button-active-color: $colorB;
+$accordion-icon-width: 2rem;
+$accordion-icon-transform: rotate(-180deg);
+$accordion-button-icon: url(../img/acordeon_active.svg);
+$accordion-button-active-icon: url(../img/acordeon_desactivado.svg);
 
 .strongPd {
     padding: 5px;
