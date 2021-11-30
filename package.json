@@ -1,5 +1,5 @@
 {
-  "name": "Cuynag",
+  "name": "cuynag",
   "version": "1.0.0",
   "description": "Asesoramiento gastronomico - Desarrollo web",
   "main": "index.js",
@@ -9,5 +9,13 @@
     "watch-css": "nodemon -e scss -x \"npm run build-css\""
   },
   "author": "RodrigoSantacruz",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rosantacruz/mi_repositorio.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rosantacruz/mi_repositorio/issues"
+  },
+  "homepage": "https://github.com/rosantacruz/mi_repositorio#readme"
 }
