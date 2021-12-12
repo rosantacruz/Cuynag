@@ -17,20 +17,25 @@ nav li a{
 nav li a:hover {
     background-color: $colorA;
     transition: 0.5s;
+    color: $colorE;
 }
 
 .disabledLi {
-    background-color: $colorA;
+    background-color: $colorE;
 }
 
 @media (max-width: 760px) {
     nav li a {
         max-width: 35%;
+        padding: auto;
+        margin: auto;
     }
 }
 
 @media (min-width: 761px) and (max-width: 1024px) {
     nav li a {
         max-width: 40%;
+        padding: auto;
+        margin:auto;
     }
 }
