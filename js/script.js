@@ -1,33 +1,28 @@
-let nombre = prompt("Ingresar un nombre de un tutor:")
 
-while (nombre != "florencia") {
-    switch (nombre) {
-        case "milton":
-            alert("Milton es un tutor");
-            break;
-        case "rodrigo":
-            alert("Rodrigo es un tutor");
-            break;
-        case "juan":
-            alert("Juan es un tutor");
-            break;
-        case "franco":
-            alert("Franco es un tutor");
-            break;
-        case "gonzalo":
-            alert("Gonzalo es un tutor");
-            break;
-        case "luis":
-            alert("Luis es un tutor");
-            break;
-        default:
-            alert("Nombre incorrecto")
-            break;
-    }
-    nombre =prompt("Ingresar un nombre de un tutor:")
-    
+function multiplicar(numero1,numero2) {
+    return numero1 * numero2;
 }
-if (nombre = "florencia")
-        alert("Florencia es la profesora");
+function dividir(numero1,numero2) {
+    return numero1 / numero2
+}
 
+var eleccion = prompt("Introduzca el servicio buscado: asesoramiento/consultoria");
+var empresa = prompt("Introduzca el tamaño de su empresa: pyme/gran");
 
+if ((eleccion == "asesoramiento") && (empresa == "pyme")) {
+    var resultado = multiplicar(150000,1.25);
+    alert("El costo del servicio es: " + resultado + " pesos");
+}
+if ((eleccion == "asesoramiento") && (empresa == "gran")) {
+    var resultado = multiplicar(150000,1.5);
+    alert("El costo del servicio es: " + resultado + " pesos");
+}
+
+if ((eleccion == "consultoria") && (empresa == "pyme")) {
+    var resultado = dividir(150000,2);
+    alert("El costo del servicio es: " + resultado + " pesos");
+}
+if ((eleccion == "consultoria") && (empresa == "gran")) {
+    var resultado = dividir(150000,2);
+    alert("El costo del servicio es: " + resultado + " pesos");
+}
