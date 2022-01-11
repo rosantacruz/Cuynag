@@ -26,3 +26,4 @@ if ((eleccion == "consultoria") && (empresa == "gran")) {
     var resultado = dividir(150000,2);
     alert("El costo del servicio es: " + resultado + " pesos");
 }
+
